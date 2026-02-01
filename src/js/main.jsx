@@ -1,18 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
-//Bootstrap
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap"
+// 1. Asegúrate de que la ruta al CSS sea correcta ahora
+import '../styles/index.css' 
 
-// index.css'
-import '../styles/index.css'
+// 2. Asegúrate de importar tu componente
+import TrafficLight from './components/TrafficLight'
 
-// components
-import Home from './components/Home';
-
+// 3. El renderizado
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <TrafficLight />
   </React.StrictMode>,
 )
