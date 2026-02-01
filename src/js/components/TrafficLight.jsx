@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const TrafficLight = () => {
-    // Estado para saber cuál brilla actualmente
+    
     const [selected, setSelected] = useState("red");
-    // Estado para la lista de luces (para que sea dinámico)
+    
     const [lights, setLights] = useState(["red", "orange", "green"]);
 
     return (
@@ -11,7 +11,7 @@ const TrafficLight = () => {
             <div className="hanging-traffic-light">
                 <div className="cable"></div>
                 <div className="traffic-light-box">
-                    {/* Generamos las luces dinámicamente según el array */}
+                    
                     {lights.map((color) => {
                         return (
                             <div
