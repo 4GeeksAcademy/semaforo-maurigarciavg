@@ -55,6 +55,19 @@ body {
     left: 50%;
     transform: translateX(-50%);
     filter: none;
+    gap: 20px;
+}
+
+.addPurple {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ffd700;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    
 }
 
 .lightChange {
@@ -83,6 +96,11 @@ body {
     user-select: none;
 }
 
+.red {
+    color: rgb(255, 0, 0)
+}
+
 .red.glow { background-color: red; box-shadow: 0 0 40px 10px red; }
 .orange.glow { background-color: orange; box-shadow: 0 0 40px 10px orange; }
 .green.glow { background-color: #00ff00; box-shadow: 0 0 40px 10px #00ff00; }
+.purple.glow { background-color: purple; box-shadow: 0 0 40px 10px purple; }
